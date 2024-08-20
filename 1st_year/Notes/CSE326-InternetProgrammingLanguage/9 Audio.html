@@ -1,0 +1,51 @@
+<!--This program tells about AUDIO-->
+
+<html>
+  <head>
+    <title>About AUDIO..</title>
+  </head>
+<body>
+  <h2>AUDIO FILE</h2>
+  
+  This AUDIO file is with all CONTROL, should be displayed (such as a play/pause button etc)
+  <br>
+  <audio controls>
+    <source src="Tone.mp3" type="audio/mpeg">
+  </audio>
+  <br>
+  <br>
+  
+  This AUDIO will start over again, every time it is finished
+  <br>
+  <audio controls loop>
+    <source src="Tone.mp3" type="audio/mpeg">
+  </audio>
+  <br>
+  <br>
+
+  This AUDIO output should be muted initially
+  <br>
+  <audio controls muted>
+    <source src="Tone.mp3" type="audio/mpeg">
+  </audio>
+  <br>
+  <br>
+
+  This AUDIO file is with PRELOAD none, that is AUDIO NOT be loaded when the page loads
+  <br>
+  <audio controls preload="none">
+    <source src="Tone.mp3" type="audio/mpeg">
+  </audio>
+  <br>
+  <br>
+
+ <!--This autoplay is not working in some systems-->
+ This AUDIO will start playing as soon as it is ready, but not working in some system
+ <br>
+ <audio controls autoplay>
+  <source src="Tone.mp3" type="audio/mpeg">
+</audio>
+<br>
+<br>
+</body>
+</html>

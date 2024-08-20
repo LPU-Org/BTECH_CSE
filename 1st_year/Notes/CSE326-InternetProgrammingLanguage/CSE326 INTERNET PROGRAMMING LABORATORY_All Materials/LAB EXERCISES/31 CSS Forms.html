@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <h3>CSS on forms</h3>
+<style>
+    input[type=text]{width:100%;
+padding: 12px 20px;
+margin: 50px;
+box-sizing: border-box;
+border: 5px solid green;
+border-bottom:dashed red;
+background-color: gray;
+color:aquamarine;
+background-image:url('tom.jpg');
+background-repeat:no-repeat;}
+
+input[type=button], input[type=submit], input[type=reset] 
+{border: 5px solid red;
+background-color: gray;
+color:pink;
+cursor: pointer;}
+
+</style>
+</head>
+<body>
+<form>
+    <label for="user1">USER NAME</label>
+    <input type="text" id="user1" name="username">
+
+    <select id="BTech" name="Engineering">
+        <option value="eng">no--select</option>
+        <option value="eng1">CSE</option>
+        <option value="eng2">ECE</option>
+        <option value="eng3">EEE</option>
+        <option value="eng4">Mech</option>
+        <option value="eng5">Civil</option>
+
+        <input type="submit" value="submit">
+        <input type="reset">
+        <input type="button" value="button">
+    </form>
+
+
+</body>
+</html>

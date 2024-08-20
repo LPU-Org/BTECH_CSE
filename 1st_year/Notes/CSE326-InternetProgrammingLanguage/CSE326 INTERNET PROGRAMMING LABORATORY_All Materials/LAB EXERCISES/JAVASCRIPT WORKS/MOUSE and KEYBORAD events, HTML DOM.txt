@@ -1,0 +1,11 @@
+LINK for - mouse, keyboard and touch based events in javascript 
+---------------------------------------------------------------------------
+https://tutorial.techaltum.com/javascript-events.html#onclick
+
+
+
+
+JavaScript - HTML DOM Methods
+-------------------------------------------------------------------------
+https://www.w3schools.com/js/js_htmldom_methods.asp
+

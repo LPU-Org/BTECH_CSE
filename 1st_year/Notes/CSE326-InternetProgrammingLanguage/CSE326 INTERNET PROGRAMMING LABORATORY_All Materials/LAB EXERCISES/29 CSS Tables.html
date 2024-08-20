@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>CSS Tables
+        <style>
+            table.one, th.one, td.one{border:3px solid black; 
+                                    border-collapse:collapse;}
+
+            table.two{border:3px solid black; border-collapse:collapse; 
+                      width:100%;}
+
+            th.two{border:3px solid black; 
+                vertical-align:bottom; height:100px;}
+
+            td.two{border:3px solid black; text-align:right;}
+
+            tr.two:hover{background-color: aqua;}
+
+            th.three, td.three {padding: 8px; text-align: left; border-bottom: 1px solid red;}
+
+            tr.four:nth-child(even) {background-color:aquamarine;}
+            tr.four:nth-child(odd) {background-color: yellow;}
+
+
+        </style>
+    </head>
+    <body>
+        <table class="one">
+            <tr>
+                <th class="one">Rno</th>
+                <th class="one">Name</th>
+                <th class="one">Marks</th>
+            </tr>
+            <tr>
+                <td class="one">1</td>
+                <td class="one">Suresh</td>
+                <td class="one">40</td>
+            </tr>
+            <tr>
+                <td class="one">2</td>
+                <td class="one">Mahesh</td>
+                <td class="one">80</td>
+            </tr>
+        </table>
+<br>
+<hr>
+        <table class="two">
+            <tr>
+                <th class="two">Rno</th>
+                <th class="two">Name</th>
+                <th class="two">Marks</th>
+            </tr>
+            <tr class="two">
+                <td class="two">1</td>
+                <td class="two">Suresh</td>
+                <td class="two">40</td>
+            </tr>
+            <tr class="two">
+                <td class="two">2</td>
+                <td class="two">Mahesh</td>
+                <td class="two">80</td>
+            </tr>
+        </table>
+    <br>
+    <hr>
+
+    <table>
+        <tr>
+            <th class="three">Rno</th>
+            <th class="three">Name</th>
+            <th class="three">Marks</th>
+        </tr>
+        <tr>
+            <td class="three">1</td>
+            <td class="three">Suresh</td>
+            <td class="three">40</td>
+        </tr>
+        <tr>
+            <td class="three">2</td>
+            <td class="three">Mahesh</td>
+            <td class="three">80</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+
+    <table>
+        <tr class="four">
+            <th>Rno</th>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+        <tr class="four">
+            <td>1</td>
+            <td>Suresh</td>
+            <td>40</td>
+        </tr>
+        <tr class="four">
+            <td>2</td>
+            <td>Mahesh</td>
+            <td>80</td>
+        </tr>
+    </table>
+    </body>
+</html>
