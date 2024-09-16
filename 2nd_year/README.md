@@ -1,1 +1,1 @@
-# 2nd Year Btech CSE
+# 2nd Year B.Tech CSE
